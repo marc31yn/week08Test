@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Week04, 05, 06 Test Suite" parallel="tests" thread-count="1">
+    <parameter name="browser" value="chrome"></parameter>
+
+    <test name="Test HomeWork 04">
+        <classes>
+            <class name="test.Week04"></class>
+        </classes>
+    </test>
+
+    <test name="Test HomeWork 05">
+        <classes>
+            <class name="test.Week05"></class>
+        </classes>
+    </test>
+
+    <test name="Test HomeWork 06">
+        <classes>
+            <class name="test.Week06"></class>
+        </classes>
+    </test>
+
+</suite>

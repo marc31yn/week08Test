@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "odds": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "price": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "price",
+            "name"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "price": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "price",
+            "name"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "odds"
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Week07_Test_Suite" parallel="tests" thread-count="1">
+    <test name="RestAssure_Test">
+        <classes>
+            <class name="test.ApiUser"></class>
+            <class name="test.PokemonApi"></class>
+        </classes>
+    </test>
+</suite>
